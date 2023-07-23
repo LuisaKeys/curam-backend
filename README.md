@@ -1,36 +1,73 @@
-<h1 align="center">
-    <img alt="LOGO-CURAM" title="Logo do curam" src="https://github.com/infoweb-projetos/curam-frontend/assets/79111102/03b7ae55-ebe1-4da7-adce-c88e287a38a1" width="10%" />
-</h1>
-
 <p align="center">
-  <a href="#--o-que-é-">O que é?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#---quais-as-tecnologias-utilizadas-">Quais as tecnologias utilizadas?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-%EF%B8%8F-reposit%C3%B3rios-">Repositórios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#---time-">Time</a>&nbsp;&nbsp;&nbsp;
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
-<br/>
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-<p align="center">
-  <img alt="MOCKUP" src="https://github.com/infoweb-projetos/curam-backend/assets/79111102/de9b2d62-e530-4bba-9378-d1171b991a53" width="40%">
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
 </p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-<h2 id="sobre"> 🧬 O que é? </h2>
-O curam é um aplicativo mobile de integração médica onde visa transformar o setor de saúde, fornecendo assessoramento personalizado e acessível aos pacientes, não importa onde eles estejam.
+## Description
 
-<h2 id="tecnologias"> 💻  Quais as tecnologias utilizadas? </h2>
-Este projeto está sendo desenvolvido com as seguintes tecnologias
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
-- [NestJS](https://nestjs.com/)
+## Installation
 
-<h2 id="repos"> 🗂️ Repositórios </h2>
-  - <a href="https://github.com/infoweb-projetos/curam-frontend">Front-end - Mobile</a> <br/>
-  - <a href="https://github.com/infoweb-projetos/curam-backend">Back-end - API</a>
+```bash
+$ npm install
+```
 
-<h2 id="tecnologias"> 🐈  Time </h2>
+## Running the app
 
+```bash
+# development
+$ npm run start
 
-| [<img src="https://avatars.githubusercontent.com/u/79111102?v=4" width=115><br><sub>Luísa Lima</sub>](https://github.com/LuisaKeys) |  [<img src="https://avatars.githubusercontent.com/u/72714982?v=4" width=115><br><sub>Leonardo Nadson</sub>](https://github.com/leonardonadson) | [<img src="https://avatars.githubusercontent.com/u/97289630?s=120&amp;v=4" width=115><br><sub>Maria Clara</sub>](https://github.com/Maria-Ricarte)  | [<img src="https://avatars.githubusercontent.com/u/77846057?v=4" width=115><br><sub>João Pedro</sub>](https://github.com/JoaoPFranca) | 
-| :---: | :---: | :---: | :---: |
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```
+
+## Support
+
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## License
+
+Nest is [MIT licensed](LICENSE).
